@@ -16,8 +16,8 @@
 # nmap3 module must be installed. >>> pip3 install python3-nmap
 
 # USAGE
-# python3 NetworkScanner.py -t 192.168.1.0/24 -o --- Performs network scan on subnet 192.168.1.0/24 with OS scan.
-# python3 NetworkScanner.py -t 192.168.1.0./24 --- Performs network scan on subnet 192.168.1.0/24 without OS scan.
+# python3 NetworkScanner.py -t 192.168.1.1/24 -o --- Performs network scan on subnet 192.168.1.0/24 with OS scan.
+# python3 NetworkScanner.py -t 192.168.1.1/24 --- Performs network scan on subnet 192.168.1.0/24 without OS scan.
 
 import argparse, sys, re, nmap3
 import scapy.all as scapy
