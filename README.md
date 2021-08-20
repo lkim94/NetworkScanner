@@ -16,3 +16,4 @@ This program is to be used for educational and security testing purposes only an
 ## Usage
 - ```sudo python3 NetworkScanner.py -t 192.168.1.1/24 -o``` --- Performs network scan on subnet 192.168.1.0/24 with OS scan.
 - ```sudo python3 NetworkScanner.py -t 192.168.1.1/24``` --- Performs network scan on subnet 192.168.1.0/24 without OS scan.
+![NetworkScannerPoC](https://user-images.githubusercontent.com/83319068/130165092-e98e9fbc-3cbe-4030-982e-9082904474c3.png)
